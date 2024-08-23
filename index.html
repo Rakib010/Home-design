@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>House Design</title>
     <!-- DaisyUI link -->
     <link
@@ -24,7 +25,7 @@
       rel="stylesheet"
     />
     <!-- CSS -->
-     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
     <header class="w-11/12 mx-auto">
@@ -58,8 +59,13 @@
               <li><a>Contact Us</a></li>
             </ul>
           </div>
-         
-          <a class="btn btn-ghost text-2xl font-bold">  <i class="fa-solid fa-arrow-right bg-[#ABEF5F] p-1 rounded-full -rotate-45"></i> Rinterio</a>
+
+          <a class="btn btn-ghost text-2xl font-bold">
+            <i
+              class="fa-solid fa-arrow-right bg-[#ABEF5F] p-1 rounded-full -rotate-45"
+            ></i>
+            Rinterio</a
+          >
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -78,29 +84,88 @@
 
     <main>
       <!-- Let’s Discuss Next Project -->
-       <section>
-          
-       </section>
-
+      <section class="bg-[url('/assets/bg.jpg')] bg-cover bg-center w-full py-16">
+       <div class="w-11/12 mx-auto">
+        <div class="flex flex-col justify-center items-center text-center">
+          <span class="bg-[#ABEF5F33] font-semibold p-2 rounded-[24px]"><i class="fa-solid fa-arrow-right"></i> Let’s Connect</span>
+          <h2 class="text-[#212121] text-4xl font-bold mt-2 mb-3">Let’s Discuss Next Project</h2>
+          <p class="lg:w-1/2 more-text-color">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+          <!-- Input From -->
+          <div class="w-4/5 mx-auto grid grid-cols-1 lg:grid-cols-2  gap-5  mt-8">
+            <div>
+              <input
+                class="py-3 px-4 border-none outline-none bg-[#FFFFFF] rounded-[64px] w-full"
+                type="text"
+                placeholder="First Name*"
+              />
+            </div>
+            <div>
+              <input
+                class="py-3 px-4 border-none outline-none bg-[#FFFFFF] rounded-[64px] w-full"
+                type="text"
+                placeholder="Last Name*"
+              />
+            </div>
+            <div>
+              <input
+                class="py-3 px-4 border-none outline-none bg-[#FFFFFF] rounded-[64px] w-full"
+                type="text"
+                placeholder="Phone Number*"
+              />
+            </div>
+            <div>
+              <input
+                class="py-3 px-4 border-none outline-none bg-[#FFFFFF] rounded-[64px] w-full"
+                type="text"
+                placeholder="Email Number*"
+              />
+            </div>
+            <div class="lg:col-span-2 ">
+              <textarea
+                rows="6"
+                class="p-5 border-none outline-none bg-[#FFFFFF] rounded-[32px] w-full"
+                type="text"
+                name=""
+                id=""
+                placeholder="Write your message here"
+              ></textarea>
+            </div>
+            <button
+            class="bg-btn text-[#1C1C1C] font-bold p-3 rounded-[32px] w-full col-span-2">Send Mail 
+            <i class="fa-solid fa-arrow-right text-[#FFFFFF] bg-[#1C1C1C] p-1 rounded-full -rotate-45"></i></button>
+          </div>
+  
+       </div>
+      </section>
     </main>
 
-
-    <footer>
-          <div class="bg-[#1C1C1C] lg:py-20 py-10 flex flex-col justify-center items-center gap-6 text-center">
-             <div class="flex items-center">
-              <i class="fa-solid fa-arrow-right bg-btn -rotate-45 p-1 rounded-full"></i>
-              <h6 class="text-3xl font-bold ml-1 text-color">Rinterio</h6>
-             </div>
-              <p class="more-text-color lg:w-1/2 w-11/12">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-              <div class="flex lg:gap-16 text-color">
-                  <a href="">Home</a>
-                  <a href="">Services</a>
-                  <a href="">Portfolio</a>
-                  <a href="">Blog</a>
-                  <a href="">Contact Us</a>
-              </div>
-                <button class="bg-btn py-2 px-4 text-lg font-bold rounded-[32px] ">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-[#1C1C1C] text-color p-1 rounded-full"></i></button>
-          </div>
+    <footer class="mt-3 bg-[#1C1C1C]">
+      <div class="w-11/12 mx-auto lg:py-20 py-10 flex flex-col justify-center items-center gap-6 text-center">
+        <div class="flex items-center">
+          <i class="fa-solid fa-arrow-right bg-btn -rotate-45 p-1 rounded-full"></i>
+          <h6 class="text-3xl font-bold ml-1 text-color">Rinterio</h6>
+        </div>
+        <p class="more-text-color lg:w-1/2 w-11/12">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+        <div class="flex lg:gap-16 text-color">
+          <a href="">Home</a>
+          <a href="">Services</a>
+          <a href="">Portfolio</a>
+          <a href="">Blog</a>
+          <a href="">Contact Us</a>
+        </div>
+        <button class="bg-btn py-2 px-4 text-lg font-bold rounded-[32px]">
+          Book Consult
+          <i class="fa-solid fa-arrow-right -rotate-45 bg-[#1C1C1C] text-color p-1 rounded-full"></i>
+        </button>
+      </div>
     </footer>
+
   </body>
 </html>
