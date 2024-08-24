@@ -28,15 +28,16 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <header class="w-11/12 mx-auto pt-6 mb-96 bg-liner-gradient">
-       <nav class="flex items-center justify-between">
+    <header class="bg-liner-gradient mb-10">
+     <div class="w-11/12 mx-auto pt-5">
+      <nav class="flex items-center justify-between">
         <div class="flex items-center">
           <i
-            class="fa-solid fa-arrow-right bg-btn -rotate-45 p-[5px] rounded-full"
+            class="fa-solid fa-arrow-right bg-btn -rotate-45 p-[6px] rounded-full"
           ></i>
           <h6 class="text-3xl font-bold ml-1 text-color text-[#212121]">Rinterio</h6>
         </div>
-         <div class="hidden md:block text-[#737373]">
+         <div class="hidden lg:block text-[#737373]">
             <ul>
                <li class="lg:flex gap-10">
                 <a class="more-text-color" href="">Home</a>
@@ -47,7 +48,7 @@
                </li>
             </ul>
          </div>
-         <div class="space-x-4 hidden md:block">
+         <div class="space-x-4 hidden lg:block">
           <i class="fa-solid fa-magnifying-glass text-[#737373] bg-[#E9E9E9] p-2 rounded-full"></i>
           <i class="fa-solid fa-cart-shopping text-[#737373] bg-[#E9E9E9] p-2 rounded-full"></i>
           <button class="bg-btn py-2 px-4  font-bold rounded-[32px]">
@@ -57,8 +58,22 @@
             ></i>
           </button>
          </div>
-         <i class="fa-solid fa-bars hidden"></i>
+         <i class="fa-solid fa-bars lg:hidden sm:block p-3 bg-[#E9E9E9] rounded-full"></i>
        </nav>
+       <div class="flex flex-col justify-center items-center text-center mt-8">
+          <img src="./assets/banner.png" alt="">
+          <div class="lg:w-3/4 space-y-6">
+            <h1 class="lg:text-5xl text-4xl font-bold text-#212121[]">A barn house of this design has a striking appearance</h1>
+            <p class="more-text-colo">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <button class="bg-[#ABEF5F80] py-2 px-4  font-bold rounded-[32px] ">
+              View Detail
+              <i
+                class="fa-solid fa-arrow-right -rotate-45 bg-btn px-2 py-2 rounded-full"
+              ></i>
+            </button>
+          </div>
+       </div>
+     </div>
     </header>
 
 
