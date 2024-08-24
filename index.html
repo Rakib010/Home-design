@@ -28,17 +28,17 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <header class="w-11/12 mx-auto pt-6 mb-96">
-       <nav class="flex items-center justify-between ">
+    <header class="w-11/12 mx-auto pt-6 mb-96 bg-liner-gradient">
+       <nav class="flex items-center justify-between">
         <div class="flex items-center">
           <i
-            class="fa-solid fa-arrow-right bg-btn -rotate-45 p-1 rounded-full"
+            class="fa-solid fa-arrow-right bg-btn -rotate-45 p-[5px] rounded-full"
           ></i>
           <h6 class="text-3xl font-bold ml-1 text-color text-[#212121]">Rinterio</h6>
         </div>
-         <div class="">
-            <ul class="">
-               <li class="lg:flex gap-10 text-[#494949]">
+         <div class="hidden md:block text-[#737373]">
+            <ul>
+               <li class="lg:flex gap-10">
                 <a class="more-text-color" href="">Home</a>
                 <a href="">Service</a>
                 <a href="">Portfolio</a>
@@ -47,7 +47,7 @@
                </li>
             </ul>
          </div>
-         <div class="space-x-4">
+         <div class="space-x-4 hidden md:block">
           <i class="fa-solid fa-magnifying-glass text-[#737373] bg-[#E9E9E9] p-2 rounded-full"></i>
           <i class="fa-solid fa-cart-shopping text-[#737373] bg-[#E9E9E9] p-2 rounded-full"></i>
           <button class="bg-btn py-2 px-4  font-bold rounded-[32px]">
@@ -57,17 +57,58 @@
             ></i>
           </button>
          </div>
-
+         <i class="fa-solid fa-bars hidden"></i>
        </nav>
     </header>
 
 
     <main>
+      <!-- Design thoughtful -->
+      <section class="bg-[#F4F4F4] py-16">
+        <img class="w-24 mb-5 ml-5 hidden md:block " src="./assets/Vector.png" alt="">
+         <div class="w-11/12 mx-auto grid lg:grid-cols-2 gap-8 ">
+          <div>
+            <div class="">
+           <div class="lg:text-left text-center">
+            <span class="bg-[#FFFFFF] font-semibold px-3 py-2 rounded-[24px]"><i class="fa-solid fa-arrow-right"></i> About Us</span
+              >
+              <h2 class="text-[#212121] text-3xl font-bold mt-3 mb-4">
+                We design thoughtful, <br> liveable spaces
+              </h2>
+              <p class="more-text-color">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal
+                accents.
+              </p>
+           </div>
+            </div>
+             <div>
+                <div class="flex p-8 border rounded-2xl mt-10 bg-[#FFFFFF]">
+                   <img class="" src="./assets/commercial.png" alt="">
+                   <div class="space-x-5 space-y-3">
+                     <h6 class="text-xl font-bold ml-5">Commercial</h6>
+                     <p class="tetx-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                   </div>
+                </div>
+                <div class="flex p-8 border rounded-2xl mt-8 bg-[#FFFFFF]">
+                   <img class="" src="./assets/residential.png" alt="">
+                   <div class="space-x-5 space-y-3">
+                     <h6 class="text-xl font-bold ml-5">Residential</h6>
+                     <p class="tetx-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div>
+            <img class="w-full" src="./assets/Rectangle.png" alt="">
+          </div>
+
+         </div>
+      </section>
       <!-- Our Works Process -->
-       <section>
+       <section class="bg-[#F4F4F4] py-16">
         <div class="w-11/12 mx-auto">
           <div class="flex flex-col justify-center items-center text-center">
-            <span class="bg-[#ABEF5F33] font-semibold p-2 rounded-[24px]"
+            <span class="bg-[#FFFFFF] font-semibold py-2 px-4 rounded-[24px]"
               ><i class="fa-solid fa-arrow-right"></i> How we works</span
             >
             <h2 class="text-[#212121] text-4xl font-bold mt-2 mb-3">
@@ -185,8 +226,7 @@
         </div>
       </section>
       <!-- Let’s Discuss Next Project -->
-      <section
-        class="bg-[url('/assets/bg.jpg')] bg-cover bg-center w-full py-16"
+      <section class="bg-[url('/assets/bg.jpg')] bg-cover bg-center w-full py-16"
       >
         <div class="w-11/12 mx-auto">
           <div class="flex flex-col justify-center items-center text-center">
